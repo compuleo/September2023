@@ -1,0 +1,159 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background-color:rgb(232, 232, 232);
+  }
+
+.pagina {
+    margin: 0 auto;
+    width: 100%;
+    border: solid 1px;
+    border-color: cornflowerblue;
+    background-color: #083364;
+  }
+
+.pagina2 {
+    margin: 0 auto;
+    width: 100%;
+    border: solid 1px;
+    border-color: cornflowerblue;
+    background-color: #083364;
+  }
+
+.menu {
+    text-align: center;
+    background-color: #5995da;
+    margin: 0 auto;
+    display: flex;
+  }
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: rgb(236, 8, 8);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.fondoBoton {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
+    color: #083364;
+    display: flex;
+}
+
+ol {
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightgrey ;
+    color: blue
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+    font-size: 22px;
+    text-align: center;
+    color: 333333;
+    padding: 66px;
+}
+
+h2 {
+    font-size: 33px;
+    text-align: center;
+    color: green;
+}
+
+img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.destacado {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 22px;
+    }
+
+.error {
+    font-size: 22px;
+    color: darkslategray;
+    text-align: center;
+    }
+
+#identificador{
+        font-size: 33px;
+        background-color: lightgray;
+        text-align: center;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+#subtitulo{
+        font-size: 33px;
+        color: white;
+        background-color: #5995da;
+        text-align: center;
+        padding-top: 11px;
+        padding-bottom: 11px;
+}
+
+.button {
+        color: cornflowerblue;
+        background-color: cornflowerblue; /* Blue */
+        font-weight: bold;
+        padding: 1px;
+        text-align: center;
+        border: 1px solid rgb(70, 70, 154); /* Dark gray */
+        border-radius: 4%;
+        cursor: pointer;
+        }
+
+.contacto {
+        font-style: italic;
+        background-color: #eeb75a; /* Yellow */
+        border: 5px solid rgb(70, 70, 154); /* Dark gray */
+        border-radius: 11px;
+        cursor: pointer;
+        }
+
+.bannerInicio{
+        margin: 0 auto;
+        }
+
+.casa1 {
+        margin: 0 auto;
+        }
+
+.casa2 {
+        margin: 0 auto;
+        }
+
+.pie{
+        margin: 0 auto ;
+        background-color: #083364;
+}
+
+.option>div{
+    width: 100%;
+    border: orange 2px dotted;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
